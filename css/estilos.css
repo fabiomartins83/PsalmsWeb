@@ -1,0 +1,73 @@
+/* 	
+	*** Modelo de arquivo de formatação web CSS.
+	*** Desenvolvido por Fábio de Almeida Martins.
+*/
+
+@viewport{
+	width: device-width;
+	zoom: 1;
+	text-orientation: portrait;
+}
+
+img, embed, object, video {
+/* Adapta imagens e vídeos de acordo com o layout do dispositivo. */
+   max-width: 100%;
+   height: auto;
+}
+
+/* Ajusta as configurações do corpo da página. */
+body {
+/*	font-size: 62.5%; */
+	background-color: #000;
+	color: #FFF;
+	text-align: left;
+	font-family: Arial;	
+}
+
+a {
+	color: #00F;
+	font-family: Times New Roman;
+	font-weight: normal;
+}
+
+.titulo {
+/* Configura a class "titulo" */
+	color: #0F0;
+	text-align: center;
+	font-family: Times New Roman;	
+	font-weight: bold;
+	font-size: 	36pt;
+}
+
+.normal {
+/* Configura a class "normal" */
+	font-family: Arial;	
+	font-size: 12pt;
+}
+
+.versiculo {
+	color: #F00;
+	font-family: Times New Roman;	
+	font-size: 24pt;
+}
+
+.rodape {
+/* Configura a class "rodape" */
+	position: absolute;
+	bottom: 1;
+	color: #0F0;
+	font-family: Times New Roman;	
+	font-size: 10pt;
+	right: 0%;
+}
+
+#imagens {
+	position: relative;
+	text-align: right; 
+}
+
+#linkint {
+/*	position: absolute;
+	left: 45%;
+	text-align: center; */
+}
