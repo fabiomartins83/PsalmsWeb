@@ -41,6 +41,7 @@ a {
 
 .corpodetexto {
 /* Configura a class "normal" */
+	text-align: left;
 }
 
 .imgdescr {
