@@ -15,13 +15,13 @@ img, embed, object, video {
    height: auto;
 }
 
-/* Ajusta as configurações do corpo da página. */
 body {
+/* Ajusta as configurações do corpo da página. */
 /*	font-size: 62.5%; */
-	background-color: #000;
-	color: #FFF;
-	text-align: left;
-	font-family: Arial;	
+	background-color: #FFF;
+	color: #000;
+	font-family: Times New Roman;	
+	font-size: 14pt;
 }
 
 a {
@@ -32,32 +32,54 @@ a {
 
 .titulo {
 /* Configura a class "titulo" */
-	color: #0F0;
+	color: #000;
 	text-align: center;
 	font-family: Times New Roman;	
 	font-weight: bold;
 	font-size: 	36pt;
 }
 
-.normal {
+.corpodetexto {
 /* Configura a class "normal" */
-	font-family: Arial;	
-	font-size: 12pt;
 }
 
-.versiculo {
+.imgdescr {
+	position: relative;
+	text-align: center;
+	color: #000;
+	font-size: 10pt;
+	font-family: Arial;
+}
+
+@font-face {
+    font-family: 'Old English Gothic';
+    src: url('./fonts/OldEnglishGothic.eot?#iefix') format('embedded-opentype'),
+        url('./fonts/OldEnglishGothic.woff2') format('woff2'),
+        url('./fonts/OldEnglishGothic.woff') format('woff'),
+        url('./fonts/OldEnglishGothic.svg#OldEnglishGothic') format('svg');
+    font-weight: 100;
+    font-style: normal;
+}
+
+.primletra {
 	color: #F00;
-	font-family: Times New Roman;	
+/*	font-family: Times New Roman; */
+	font-family: 'Old English Gothic'; 
 	font-size: 24pt;
+}
+
+.numero {
+	font-family: Times New Roman;
 }
 
 .rodape {
 /* Configura a class "rodape" */
 	position: absolute;
 	bottom: 1;
-	color: #0F0;
+	color: #000;
 	font-family: Times New Roman;	
 	font-size: 10pt;
+	font-weight: normal;
 	right: 0%;
 }
 
@@ -66,8 +88,9 @@ a {
 	text-align: right; 
 }
 
-#linkint {
+#links {
 /*	position: absolute;
 	left: 45%;
 	text-align: center; */
+	font-size: 12pt;
 }

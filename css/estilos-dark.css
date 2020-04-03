@@ -1,0 +1,96 @@
+/* 	
+	*** Modelo de arquivo de formatação web CSS.
+	*** Desenvolvido por Fábio de Almeida Martins.
+*/
+
+@viewport{
+	width: device-width;
+	zoom: 1;
+	text-orientation: portrait;
+}
+
+img, embed, object, video {
+/* Adapta imagens e vídeos de acordo com o layout do dispositivo. */
+   max-width: 100%;
+   height: auto;
+}
+
+body {
+/* Ajusta as configurações do corpo da página. */
+/*	font-size: 62.5%; */
+	background-color: #000;
+	color: #FFF;
+	font-family: Times New Roman;	
+	font-size: 14pt;
+}
+
+a {
+	color: #00F;
+	font-family: Times New Roman;
+	font-weight: normal;
+}
+
+.titulo {
+/* Configura a class "titulo" */
+	color: #0F0;
+	text-align: center;
+	font-family: Times New Roman;	
+	font-weight: bold;
+	font-size: 	36pt;
+}
+
+.corpodetexto {
+/* Configura a class "normal" */
+}
+
+.imgdescr {
+	position: relative;
+	text-align: center;
+	color: #FFF;
+	font-size: 10pt;
+	font-family: Arial;
+}
+
+@font-face {
+    font-family: 'Old English Gothic';
+    src: url('./fonts/OldEnglishGothic.eot?#iefix') format('embedded-opentype'),
+        url('./fonts/OldEnglishGothic.woff2') format('woff2'),
+        url('./fonts/OldEnglishGothic.woff') format('woff'),
+        url('./fonts/OldEnglishGothic.svg#OldEnglishGothic') format('svg');
+    font-weight: 100;
+    font-style: normal;
+}
+
+.primletra {
+	color: #F00;
+/*	font-family: Times New Roman; */
+	font-family: 'Old English Gothic'; 
+	font-size: 24pt;
+}
+
+.numero {
+	font-family: Times New Roman;
+}
+
+.rodape {
+/* Configura a class "rodape" */
+	position: absolute;
+	bottom: 1;
+	color: #0F0;
+	font-family: Times New Roman;	
+	font-size: 10pt;
+	font-weight: lighter;
+	right: 0%;
+}
+
+#imagens {
+	position: relative;
+	text-align: right; 
+}
+
+#links {
+/*	position: absolute;
+	left: 45%;
+	text-align: center; */
+	font-size: 12pt;
+}
