@@ -11,12 +11,12 @@
 
 img, embed, object, video {
 /* Adapta imagens e vídeos de acordo com o layout do dispositivo. */
-   max-width: 100%;
-   height: auto;
+/*	display: block; */
+	max-width: 100%;
+	height: auto;
 }
 
 body {
-/* Ajusta as configurações do corpo da página. */
 /*	font-size: 62.5%; */
 	background-color: #000;
 	color: #FFF;
@@ -31,7 +31,6 @@ a {
 }
 
 .titulo {
-/* Configura a class "titulo" */
 	color: #0F0;
 	text-align: center;
 	font-family: Times New Roman;	
@@ -40,7 +39,6 @@ a {
 }
 
 .corpodetexto {
-/* Configura a class "normal" */
 	text-align: left;
 }
 
@@ -74,7 +72,6 @@ a {
 }
 
 .rodape {
-/* Configura a class "rodape" */
 	position: absolute;
 	bottom: 1;
 	color: #0F0;
@@ -85,6 +82,7 @@ a {
 }
 
 #imagens {
+/*	display: auto; */
 	position: relative;
 	text-align: right; 
 }
