@@ -18,7 +18,7 @@ img, embed, object, video {
 
 body {
 /*	font-size: 62.5%; */
-	background-color: #FFF;
+    background-color: #F5F5DC;
 	color: #000;
 	font-family: Times New Roman;	
 	font-size: 14pt;
@@ -31,7 +31,7 @@ a {
 }
 
 .titulo {
-	color: #000;
+	color: #F00;
 	text-align: center;
 	font-family: Times New Roman;	
 	font-weight: bold;
