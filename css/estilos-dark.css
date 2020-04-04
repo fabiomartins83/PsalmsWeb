@@ -39,7 +39,8 @@ a {
 }
 
 .corpodetexto {
-	text-align: left;
+	text-align: left; 
+	font-size: 14pt;
 }
 
 .imgdescr {
