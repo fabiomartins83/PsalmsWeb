@@ -81,15 +81,19 @@ a {
 	right: 0%;
 }
 
-#imagens {
+.imagens {
 /*	display: auto; */
 	position: relative;
 	text-align: right; 
 }
 
-#links {
+.links {
 /*	position: absolute;
-	left: 45%;
-	text-align: center; */
+	left: 45%; */
+	text-align: center;
 	font-size: 12pt;
+}
+
+#audioplayer {
+	text-align: center;
 }
