@@ -18,37 +18,60 @@ img, embed, object, video {
 
 body {
 /*	font-size: 62.5%; */
-	background-color: #000;
-	color: #FFF;
 	font-family: Times New Roman;	
 	font-size: 14pt;
+	font-weight: normal;
+	background-color: #000;
+	color: #FFF;
 }
 
 a {
 	color: #00F;
-	font-family: Times New Roman;
-	font-weight: normal;
 }
 
 .titulo {
-	color: #0F0;
 	text-align: center;
 	font-family: Times New Roman;	
-	font-weight: bold;
 	font-size: 	36pt;
+	font-weight: bold;
+	color: #0F0;
 }
 
 .corpodetexto {
 	text-align: left; 
-	font-size: 14pt;
+	font-size: 	14pt;
+}
+
+.rodape {
+	position: absolute;
+	right: 0%;
+	text-align: center;
+	bottom: 1;
+	font-family: Times New Roman;	
+	font-size: 12pt;
+	font-weight: normal;
+	color: #0F0;
+}
+
+.links {
+/*	position: absolute;
+	left: 45%; */
+	text-align: center;
+	font-size: 12pt;
+}
+
+.imagens {
+/*	display: auto; */
+	position: relative;
+	text-align: right; 
 }
 
 .imgdescr {
 	position: relative;
 	text-align: center;
-	color: #FFF;
-	font-size: 10pt;
 	font-family: Arial;
+	font-size: 10pt;
+	color: #FFF;
 }
 
 @font-face {
@@ -62,37 +85,14 @@ a {
 }
 
 .primletra {
-	color: #F00;
 /*	font-family: Times New Roman; */
 	font-family: 'Old English Gothic'; 
 	font-size: 24pt;
+	color: #F00;
 }
 
 .numero {
 	font-family: Times New Roman;
-}
-
-.rodape {
-	position: absolute;
-	bottom: 1;
-	color: #0F0;
-	font-family: Times New Roman;	
-	font-size: 12pt;
-	font-weight: lighter;
-	right: 0%;
-}
-
-.imagens {
-/*	display: auto; */
-	position: relative;
-	text-align: right; 
-}
-
-.links {
-/*	position: absolute;
-	left: 45%; */
-	text-align: center;
-	font-size: 12pt;
 }
 
 #audioplayer {
