@@ -1,0 +1,100 @@
+/* 	
+	*** Modelo de arquivo de formatação web CSS.
+	*** Desenvolvido por Fábio de Almeida Martins.
+*/
+
+@viewport{
+	width: device-width;
+	zoom: 1;
+	text-orientation: portrait;
+}
+
+img, embed, object, video {
+/* Adapta imagens e vídeos de acordo com o layout do dispositivo. */
+/*	display: block; */
+	max-width: 100%;
+	height: auto;
+}
+
+body {
+/*	font-size: 62.5%; */
+	font-family: Times New Roman;	
+	font-size: 14pt;
+	font-weight: normal;
+    background-color: #F5F5DC;
+	color: #000;
+}
+
+a {
+	color: #00F;
+}
+
+.titulo {
+	text-align: center;
+	font-family: Times New Roman;	
+	font-size: 	36pt;
+	font-weight: bold;
+	color: #F00;
+}
+
+.corpodetexto {
+	text-align: left; 
+	font-size: 	14pt;
+}
+
+.rodape {
+	position: absolute;
+	right: 0%;
+	text-align: center;
+	bottom: 1;
+	font-family: Times New Roman;	
+	font-size: 12pt;
+	font-weight: normal;
+	color: #000;
+}
+
+.links {
+/*	position: absolute;
+	left: 45%; */
+	text-align: center;
+	font-size: 12pt;
+}
+
+.imagens {
+/*	display: auto; */
+	position: relative;
+	text-align: right;
+}
+
+.imgdescr {
+	position: relative;
+	text-align: center;
+	font-family: Arial;
+	font-size: 10pt;
+	color: #000;
+}
+
+@font-face {
+    font-family: 'Old English Gothic';
+    src: url('./fonts/OldEnglishGothic.eot?#iefix') format('embedded-opentype'),
+        url('./fonts/OldEnglishGothic.woff2') format('woff2'),
+        url('./fonts/OldEnglishGothic.woff') format('woff'),
+        url('./fonts/OldEnglishGothic.svg#OldEnglishGothic') format('svg');
+    font-weight: 100;
+    font-style: normal;
+}
+
+.primletra {
+/*	font-family: Times New Roman; */
+	font-family: 'Old English Gothic'; 
+	font-size: 24pt;
+	color: #F00;
+}
+
+.numero {
+	font-family: Times New Roman;
+}
+
+#audioplayer {
+	text-align: center;
+}
