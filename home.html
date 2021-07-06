@@ -21,20 +21,21 @@
 	<link rel="shortcut icon" type="image/x-icon" href="./img/favicon.ico"> 
 	<link rel="alternative" type="application/rss+xml" title="Liber Psalmorum - RSS Feed" href="./feed">
 -->
-	<link rel="stylesheet" type="text/css" href="./css/estilos-dark.css" media="screen" />
-	<link rel="canonical" href="./home-light.html">
-	<link rel="index" title="Liber Psalmorum - Home" href="./home-dark.php">
+	<link rel="stylesheet" type="text/css" href="./css/estilos-dark.css">
+	<link rel="stylesheet" type="text/css" id="css-light" href="" data-href="./css/estilos-light.css">
+	<link rel="canonical" href="./home.html">
+	<link rel="index" title="Liber Psalmorum - Home" href="./home.php">
 	<title>LIBER PSALMORVM - Home</title>
-	<script type="text/javascript" src="./js/script-head.js">
-	</script>
+	<script type="text/javascript" src="./js/JQuery3-min.js"></script>
+	<script type="text/javascript" src="./js/script-head.js"></script>
 </head>
 
 <!--<body onload="alert('Bem vindo!')"> -->
 <body>
-
+<!--
 	<script type="text/javascript" src="./js/script-body.js">
 	</script>
-
+-->
 	<header>
 		<a id="topo"><figure id="imagem1">
 			<img src="./img/lubecker-totentanz.jpg" alt="Pintura medieval gótica" title="Pintura medieval gótica">
@@ -56,7 +57,7 @@
 				<li><a href="./psalmi-light.html">PSALMI V </a></li>
 			</ol>
 -->
-			<a href="./psalmi-90-dark.html"><p>PSALMI XC</p></a>
+			<a href="./psalmi-90.html"><p>PSALMI XC</p></a>
 		</nav>
 	</main>
 
@@ -82,7 +83,7 @@
 	<nav class="links">
 		<a href="#topo">Voltar para o topo</a><br>
 		<br>
-		<a href="./home-light.html">Ir para a versão Light</a>
+		<button id="mudaEstilo">Alterar Estilo</button>
 	</nav>
 	<br><br><br>
 

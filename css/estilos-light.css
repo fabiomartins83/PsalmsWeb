@@ -16,6 +16,10 @@ img, embed, object, video {
 	height: auto;
 }
 
+table {
+	margin: auto;
+}
+
 body {
 /*	font-size: 62.5%; */
 	font-family: Times New Roman;	
