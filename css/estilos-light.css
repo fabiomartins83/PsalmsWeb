@@ -121,10 +121,10 @@ button, input[type=submit], input[type=reset] {
 }
 
 .titulo {
-/*	font-weight: bold;  */
-	font-family: Times New Roman;	
+	font-weight: bold;  
+/*	font-family: Times New Roman;	
 	font-size: 24pt;
-	color: #F00;
+	color: #0F0; */
 }
 
 .corpodetexto {
@@ -225,4 +225,10 @@ button, input[type=submit], input[type=reset] {
 
 #audioplayer {
 	text-align: center;
+}
+
+#titulo1 {
+	font-family: Times New Roman;	
+	font-size: 24pt;
+	color: #F00;
 }
