@@ -10,7 +10,7 @@
 }
 
 body {
-/*
+/*		
 	font-size: 62.5%; 
 */
 	font-family: Arial;
@@ -19,12 +19,12 @@ body {
     background-color: #F5F5DC;
 	color: #000;
 	text-align: center;
-	padding: 2pt;
+	padding: 5pt;
 }
 
 main {
-	text-align: left; 
 	line-height: 1.5;
+	text-align: center;
 }
 
 a {
@@ -38,12 +38,12 @@ h1,h2 {
 
 img, embed, object, video {
 /* Adapta imagens e vídeos de acordo com o layout do dispositivo. */
-/*
+/*	
 	display: block; 
 */
-	margin: 2pt;
 	max-width: 100%;
 	height: auto;
+	padding: 2pt;
 }
 
 figcaption {
@@ -127,9 +127,8 @@ button, input[type=submit], input[type=reset] {
 }
 
 .corpodetexto {
-	font-family: Times New Roman;	
-	font-size: 14pt;
 	font-weight: normal;
+	text-align: left;
 }
 
 .links {
@@ -174,16 +173,14 @@ button, input[type=submit], input[type=reset] {
 	font-family: Times New Roman;
 }
 
-.arial {
+.arial10 {
     font-family: Arial;
 	font-size: 10pt;
-    font-weight: normal;
 }
 
-.timesnewroman {
+.times14 {
     font-family: Times New Roman;
-	font-size: 12pt;
-    font-weight: normal;
+	font-size: 14pt;
 }
 
 .central {
