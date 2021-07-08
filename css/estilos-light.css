@@ -10,12 +10,14 @@
 }
 
 body {
-/*	font-size: 62.5%; */
-	padding: 2pt;
+/*
+	font-size: 62.5%; 
+*/
 	font-weight: normal;
     background-color: #F5F5DC;
 	color: #000;
 	text-align: center;
+	padding: 2pt;
 }
 
 main {
@@ -27,7 +29,6 @@ main {
 }
 
 a {
-	color: #00F;
 	text-decoration: none;
 	cursor: pointer;
 }
@@ -37,12 +38,14 @@ h1,h2 {
 }
 
 img, embed, object, video {
-	/* Adapta imagens e vídeos de acordo com o layout do dispositivo. */
-	/*	display: block; */
-		margin: 2pt;
-		max-width: 100%;
-		height: auto;
-	}
+/* Adapta imagens e vídeos de acordo com o layout do dispositivo. */
+/*
+	display: block; 
+*/
+	margin: 2pt;
+	max-width: 100%;
+	height: auto;
+}
 
 figcaption {
 	position: relative;
@@ -118,7 +121,9 @@ button, input[type=submit], input[type=reset] {
 }
 
 .titulo {
+	font-family: Times New Roman;	
 	font-size: 	24pt;
+	font-weight: bold;
 	color: #F00;
 }
 
