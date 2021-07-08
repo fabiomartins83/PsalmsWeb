@@ -13,6 +13,8 @@ body {
 /*	
 	font-size: 62.5%; 
 */
+	font-family: Arial;
+	font-size: 10pt;
 	font-weight: normal;
 	background-color: #101010;
 	color: #FFF;
@@ -21,11 +23,8 @@ body {
 }
 
 main {
-	font-family: Times New Roman;	
-	font-size: 14pt;
-	font-weight: normal;
-	text-align: left; 
 	line-height: 1.5;
+	text-align: center;
 }
 
 a {
@@ -127,6 +126,11 @@ button, input[type=submit], input[type=reset] {
 	color: #0F0;
 }
 
+.corpodetexto {
+	font-weight: normal;
+	text-align: left;
+}
+
 .links {
 /*	position: absolute;
 	left: 45%; */
@@ -169,16 +173,14 @@ button, input[type=submit], input[type=reset] {
 	font-family: Times New Roman;
 }
 
-.arial {
+.arial10 {
     font-family: Arial;
 	font-size: 10pt;
-    font-weight: normal;
 }
 
-.timesnewroman {
+.times14 {
     font-family: Times New Roman;
-	font-size: 12pt;
-    font-weight: normal;
+	font-size: 14pt;
 }
 
 .central {

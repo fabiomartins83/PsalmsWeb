@@ -13,6 +13,8 @@ body {
 /*
 	font-size: 62.5%; 
 */
+	font-family: Arial;
+	font-size: 10pt;
 	font-weight: normal;
     background-color: #F5F5DC;
 	color: #000;
@@ -21,9 +23,6 @@ body {
 }
 
 main {
-	font-family: Times New Roman;	
-	font-size: 14pt;
-	font-weight: normal;
 	text-align: left; 
 	line-height: 1.5;
 }
@@ -125,6 +124,12 @@ button, input[type=submit], input[type=reset] {
 	font-size: 24pt;
 	font-weight: bold;
 	color: #F00;
+}
+
+.corpodetexto {
+	font-family: Times New Roman;	
+	font-size: 14pt;
+	font-weight: normal;
 }
 
 .links {
