@@ -50,6 +50,7 @@ figcaption {
 	font-family: Arial;
 	font-size: 10pt;
 	color: #000;
+	line-height: 1;
 }
 
 table {
