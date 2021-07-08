@@ -170,6 +170,14 @@ button, input[type=submit], input[type=reset] {
 	font-weight: bold;
 }
 
+.imgdescr {
+    position: relative;
+    text-align: center;
+    font-family: Arial;
+    font-size: 10pt;
+    color: #000;
+}
+
 .numero {
 	font-family: Times New Roman;
 }
@@ -221,6 +229,12 @@ button, input[type=submit], input[type=reset] {
 	font-family: 'Old English Gothic'; 
 	font-size: 24pt;
 	color: #F00;
+}
+
+#logo {
+	display: block;
+	margin: 5pt;
+	text-align: center;
 }
 
 #audioplayer {
