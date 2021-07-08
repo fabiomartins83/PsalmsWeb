@@ -9,73 +9,192 @@
 	text-orientation: portrait;
 }
 
-img, embed, object, video {
-/* Adapta imagens e vídeos de acordo com o layout do dispositivo. */
-/*	display: block; */
-	max-width: 100%;
-	height: auto;
-}
-
-table {
-	margin: auto;
-}
-
 body {
 /*	font-size: 62.5%; */
-	font-family: Times New Roman;	
-	font-size: 14pt;
+	padding: 2pt;
 	font-weight: normal;
     background-color: #F5F5DC;
 	color: #000;
+	text-align: center;
+}
+
+main {
+	font-family: Times New Roman;	
+	font-size: 14pt;
+	font-weight: normal;
+	text-align: left; 
+	line-height: 1.5;
 }
 
 a {
 	color: #00F;
+	text-decoration: none;
+	cursor: pointer;
+}
+
+h1,h2 {
+    text-align: center;
+}
+
+img, embed, object, video {
+	/* Adapta imagens e vídeos de acordo com o layout do dispositivo. */
+	/*	display: block; */
+		margin: 2pt;
+		max-width: 100%;
+		height: auto;
+	}
+
+figcaption {
+	position: relative;
+	text-align: center;
+	font-family: Arial;
+	font-size: 10pt;
+	color: #FFF;
+}
+
+table {
+	margin: auto;
+	border: solid 1px #000;
+}
+	
+form {
+    display: inline;
+}
+
+fieldset {
+    display: inline;
+    margin: 5pt 10pt;
+    padding: 10pt;
+	border: solid 1px #000;
+    text-align:left;
+    background-color: #FFF;
+}
+
+legend {
+    display: block;
+    text-align: center;
+}
+
+input, button {
+    display: inline;
+	margin: 3pt;
+	padding: 2pt;
+}
+
+label {
+    display: inline;
+	width: 35px;
+	padding-right: 20px;
+	padding-bottom: 10px;
+}
+
+input[type=text], input[type=password], input[type=email], input[type=tel], input[type=number], input[type=date], input[type=time], input[type=url]
+{
+    display: inline;
+    padding: 1pt;
+	border-radius: 4px; 
+	border: solid 1px #444; 
+    background-color: #EEE;
+}
+
+button, input[type=submit], input[type=reset] {
+    display: inline;
+	padding:6px 10px;
+	font-weight: bold;
+	border-radius: 4px;
+	cursor:pointer;
+/*
+    border:1px solid #25692A;
+	font-family:Verdana;
+	font-size:12px;
+	border-color:#46a7f5;
+	text-decoration:none;
+	background:linear-gradient(to bottom, #86c6f8 5%, #46a7f5 100%); 
+	box-shadow:inset 0px 1px 0px 0px #d7ecfd;
+	color:#fff; 
+	text-shadow:0px 1px 0px #528009;
+*/
 }
 
 .titulo {
-	text-align: center;
-	font-family: Times New Roman;	
-	font-size: 	36pt;
-	font-weight: bold;
+	font-size: 	24pt;
 	color: #F00;
-}
-
-.corpodetexto {
-	text-align: left; 
-	font-size: 	14pt;
-}
-
-.rodape {
-	position: absolute;
-	right: 0%;
-	text-align: center;
-	bottom: 1;
-	font-family: Times New Roman;	
-	font-size: 12pt;
-	font-weight: normal;
-	color: #000;
 }
 
 .links {
 /*	position: absolute;
 	left: 45%; */
-	text-align: center;
-	font-size: 12pt;
-}
-
-.imagens {
-/*	display: auto; */
-	position: relative;
-	text-align: right;
-}
-
-.imgdescr {
-	position: relative;
-	text-align: center;
 	font-family: Arial;
 	font-size: 10pt;
+	text-align: center;
+	line-height: 1.5;
+}
+
+.rodape {
+	position: absolute;
+	right: 2%;
+	text-align: center;
+	bottom: 1;
+	font-family: Arial;
+	font-size: 10pt;
+	font-weight: normal;
 	color: #000;
+	line-height: 1;
+}
+
+.imagem {
+/*	display: auto; */
+	position: relative;
+	text-align: right; 
+}
+
+.tabela {
+	text-align: center;
+    font-family: Times New Roman;   
+    font-size: 12pt;
+}
+
+.rotulo {
+	font-size: 10pt;
+	font-weight: bold;
+}
+
+.numero {
+	font-family: Times New Roman;
+}
+
+.arial {
+    font-family: Arial;
+	font-size: 10pt;
+    font-weight: normal;
+}
+
+.timesnewroman {
+    font-family: Times New Roman;
+	font-size: 12pt;
+    font-weight: normal;
+}
+
+.central {
+	text-align: center;
+}
+
+.esquerda {
+    text-align: left;
+}
+
+.bordainvisivel {
+	border: transparent;
+}
+
+.container {
+    display: table;
+    width: 100%;
+    clear: both;
+}
+
+.container p {
+    display: table-row;
 }
 
 @font-face {
@@ -93,10 +212,6 @@ a {
 	font-family: 'Old English Gothic'; 
 	font-size: 24pt;
 	color: #F00;
-}
-
-.numero {
-	font-family: Times New Roman;
 }
 
 #audioplayer {

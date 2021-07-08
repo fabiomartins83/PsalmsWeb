@@ -30,30 +30,29 @@
 	<script type="text/javascript" src="./js/script-head.js"></script>
 </head>
 
-<body>
-<!--
-	<script type="text/javascript" src="./js/script-body.js">
-	</script>
--->
-	<header>
-		<a id="topo"><figure id="imagem1">
-			<img src="./img/lubecker-totentanz.jpg" alt="Pintura medieval gótica" title="Pintura medieval gótica">
-			<figcaption class="imgdescr">Pintura gótica medieval</figcaption>
-		</figure></a>
-		<br>
-		<h1 class="titulo">PSALMI XC</h1>
-		<br>
-	</header>
-
-	<main>
-		<figure class="imagens">
-			<a href="https://pt.wikipedia.org/wiki/Livro_de_Salmos" target="_blank">
-<!--				<img src="./img/img1.jpg" alt="Pintura medieval gótica" title="Pintura medieval gótica" align=right> -->
-				<img src="./img/danca-macabra-1.png" alt="Pintura medieval gótica" title="Pintura medieval gótica" align=right> 
+<body onload="">
+	<script type="text/javascript" src="./js/script-body.js"></script>
+	<header class="cabecalho">
+		<div class="imagem">
+			<a id="topo">
+				<figure id="imagem1">
+					<img src="./img/lubecker-totentanz.jpg" alt="Pintura medieval gótica" title="Pintura medieval gótica">
+					<figcaption class="imgdescr">Pintura gótica medieval</figcaption>
+				</figure>
 			</a>
-		</figure>
-
-		<section class="'corpodetexto">
+		</div>
+		<br><h1 class="titulo">LIBER PSALMORVM</h1><br>
+	</header>
+	<main class="principal">
+		<div class="imagem">
+			<figure class="imagem">
+				<a href="https://pt.wikipedia.org/wiki/Livro_de_Salmos" target="_blank">
+					<img src="./img/danca-macabra-1.png" alt="Pintura medieval gótica" title="Pintura medieval gótica" align=right> 
+<!--					<figcaption class="imgdescr">Pintura gótica medieval</figcaption>  -->
+				</a>
+			</figure>
+		</div>
+		<section class="corpodetexto">
 			<div id="divTextoPrincipal">
 				<ol type="I">
 					<li id="linha01"><span id="letra01" class="primletra">Q</span id="linha01">ui habitat in adjutorio Altissimi, in protectione Dei caeli commorabitur. </li>
@@ -75,8 +74,8 @@
 					<li id="linha17"><span id="letra17" class="primletra"></span></li>
 				</ol>
 			</div>
-			<br><br><br>
-			<div id="divFormIdiomas" style="text-align: center">
+			<br>
+			<div id="divFormIdiomas" class="arial central">
 				<form id="formIdiomas">
 					<label for="selecaoIdioma">Change the language: </label>
 					<select name="selecaoIdioma" onchange="alteraTexto(this.value)">
@@ -89,17 +88,12 @@
 		</section>
 	</main>
 	<br><br><br>
-
 	<nav class="links">
 		<a href="#topo">Voltar para o topo</a><br>
-		<br>
 		<a href="./home.html">Voltar para a Página Inicial</a><br>
-		<br>
-		<button id="mudaEstilo">Alterar Estilo</button>
+		<a id="mudaEstilo">Alterar Estilo</a>
 	</nav>
-	<br><br><br>
-
-	<footer class="rodape"><br>Desenvolvido por <strong>Fábio de Almeida Martins</strong>. <br>© 2020  -  Fábio de Almeida Martins</footer>
-
+	<br>
+	<footer class="rodape"><small>Desenvolvido por <b>Fábio de Almeida Martins</b>. <br>© 2020  -  Fábio de Almeida Martins</small></footer>
 </body>
 </html>
