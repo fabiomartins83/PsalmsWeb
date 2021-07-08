@@ -121,12 +121,12 @@ button, input[type=submit], input[type=reset] {
 }
 
 .titulo {
-	font-weight: bold;  
 /*	font-family: Times New Roman;	
 	font-size: 24pt;
+	font-weight: bold;  
 	color: #0F0; */
 }
-
+	
 .corpodetexto {
 	font-weight: normal;
 	text-align: left;
