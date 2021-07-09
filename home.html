@@ -27,8 +27,8 @@
 	<title>LIBER PSALMORVM - Home</title>
 	<script type="text/javascript" src="./js/JQuery3-min.js"></script>
 	<script type="text/javascript" src="./js/script-head.js"></script>
-	<link rel="stylesheet" type="text/css" href="./css/estilos-dark.css">
-	<link rel="stylesheet" type="text/css" id="css-light" href="" data-href="./css/estilos-light.css">
+	<link rel="stylesheet" type="text/css" href="./css/style-dark.css">
+	<link rel="stylesheet" type="text/css" id="css-light" href="" data-href="./css/style-light.css">
 </head>
 
 <body onload="">
@@ -42,7 +42,7 @@
 				</figure>
 			</a>
 		</div>
-		<br><h1 class="titulo" id="titulo1">LIBER PSALMORVM</h1><br>
+		<br><h1 class="titulo titulo1" id="tituloprincipal">LIBER PSALMORVM</h1><br>
 	</header>
 	<main id="principal">
 		<section id="secaoprincipal">
@@ -56,7 +56,7 @@
 					<li><a href="./psalmi-light.html">PSALMI V </a></li>
 				</ol>
 	-->
-				<a href="./psalmi-90.html"><p>PSALMI XC</p></a>
+				<a href="./psalmi-90.html">PSALMI XC</a>
 			</nav>
 		</section>
 		<div id="audioplayer">
@@ -80,11 +80,21 @@
 	<br><br><br>
 -->
 	<br>
-	<nav class="links">
-		<a href="#topo">Voltar para o topo</a><br>
-		<a id="mudaEstilo">Alterar Estilo</a>
-	</nav>
+	<section id="menuprincipal">
+		<nav id="navmenu" class="menu">
+			<p><b>Menu principal: </b></p>
+			<div id="divmenu" class="links">
+				<a href="javascript:void(0)" id="mudaEstilo">Alterar estilo</a><br>
+				<a href="#topo">Ir ao topo da página</a><br>
+				<a href="./home.html">Voltar para a Página Inicial</a><br>
+			</div>
+		</nav>
+	</section>
 	<br>
-	<footer class="rodape"><small>Desenvolvido por <b>Fábio de Almeida Martins</b><br>© 2020  -  Fábio de Almeida Martins</small></footer>
+	<footer class="rodape">
+		<div class="divrodape">
+			<p><small>Desenvolvido por <b>Fábio de Almeida Martins</b><br>© 2021  -  Fábio de Almeida Martins</small></p>
+		</div>
+	</footer>
 </body>
 </html>

@@ -1,0 +1,159 @@
+/* 	
+	*** Modelo de arquivo de formatação web CSS.
+	*** Desenvolvido por Fábio de Almeida Martins.
+*/
+
+/* Configurações de responsividade do site */
+@viewport 						{width: device-width; zoom: 1; text-orientation: portrait;}
+img, embed, object, video  		{max-width: 100%; height: auto; padding: 2pt; }
+
+/* Configurações de formatação e posicionamento das estruturas do site */
+main 							{text-align: center;}
+header 							{}
+footer 							{position: absolute; right: 2%; bottom: 1;}
+aside 							{}
+nav 							{}
+section 						{text-align: center;}
+article 						{}
+
+/* Configurações de alinhamento e margens do site */
+body 							{text-align: center; padding: 5pt; display: block;}
+
+/* Configurações do ponteiro do cursor */
+body 							{cursor: default;}
+a:link 							{cursor: pointer}
+a:hover							{text-decoration: underline;}
+
+/* Alinhamento horizontal e vertical do texto */
+h1,h2,h3,h4,h5 					{display: block; text-align: center;}
+p 								{}
+figcaption 						{text-align: center;}
+section 						{display: inline;}
+nav 							{text-align: center}
+table 							{text-align: center;}
+.rodape, .imgdescr 				{text-align: center;}
+.corpodetexto 					{text-align: left;}
+.central 						{text-align: center;}
+.esquerda 						{text-align: left;}
+.bloco 							{display: block;}
+.lateral  						{display: block; position: relative; text-align: right;}
+#secaoprincipal 				{text-align: left}
+#audioplayer 					{text-align: center;}
+#logo  							{display: block; text-align: center;}
+
+/* arrumar as duas linhas abaixo */
+.container 						{display: table; width: 100%; clear: both;}
+.container p 					{display: table-row;}
+
+/* Tamanho de texto: */
+body 							{font-size: 10pt;}
+h1 								{font-size: 24pt;}
+h2 								{font-size: 20pt;}
+h3 								{font-size: 18pt;}
+h4 								{font-size: 16pt;}
+h5 								{font-size: 14pt;}
+h6 								{font-size: 12pt;}
+figcaption, nav 				{font-size: 10pt;}
+label 							{font-size: 10pt;}
+
+/* Tipo gráfico, tamanho e formatação do texto */
+body 							{font-family: Arial; font-size: 10pt; font-weight: normal;}
+main 							{}
+section							{font-family: Times New Roman;}
+p 								{font-weight: normal;}
+a 								{text-decoration: none;}
+figcaption 						{font-family: Arial; font-weight: normal;}
+nav 							{font-family: Arial;}
+label 							{font-family: Arial;}
+
+/* Estilos personalizados de texto */
+.corpodetexto 					{font-weight: normal;}
+.rodape, .imgdescr 				{font-family: Arial; font-size: 10pt; font-weight: normal;}
+.rotulo 						{font-family: Arial; font-size: 10pt; font-weight: bold;}
+.numero 						{font-family: Times New Roman;}
+.arial10 						{font-family: Arial; font-size: 10pt;}
+.times14 						{font-family: Times New Roman; font-size: 14pt}
+.tabela	 						{font-family: Arial; font-size: 10pt}
+.titulo 						{font-family: Times NewRoman}
+
+/* Cor da fonte e do fundo de tela do site */
+body 							{color: #FFF; background-color: #000;}
+main 							{}
+section 						{}
+.corpodetexto 					{color: #FFF;}
+.rodape							{color: #0F0;}
+.imgdescr 						{color: #FFF;}
+.numero 						{color: #FFF;}
+.tabela 						{color: #FFF;}
+.titulo 						{color: #FFF;}
+.titulo1 						{color: #0F0;}
+
+/* Identação de parágrafos */
+body 							{text-indent: 0pt;}
+.corpodetexto 					{text-indent: 1.25cm;}
+ol, li 							{text-indent: 0pt;}
+
+/* Espaçamento entre linhas do texto */
+main 							{line-height: 1;}
+section							{line-height: 1.5;}
+nav 							{line-height: 1.25;} 
+figcaption 						{line-height: 1;}
+.rodape, .imgdescr 				{line-height: 1;}
+table 							{line-height: 1;}
+
+/* Configurações de margens e paddings */
+table 							{margin: auto;}
+
+/* Alinhamento de campos de formulários */
+form 							{display: inline;}
+fieldset 						{display: inline; text-align: left}
+legend 							{display: block; text-align: center}
+input, button 					{display: inline;}
+label 							{display: inline; text-align: left}
+
+/* Formatação de campo de formulário */
+fieldset 						{margin: 5pt 10pt; padding: 10pt;}
+input, button 					{margin: 3pt;	padding: 2pt;}
+label 							{width: auto; padding-right: 10px; padding-bottom: 5px;}
+
+/* Bordas e cor de fundo dos elementos */
+table 							{border: solid 1px #000; /* background-color: #FFF; */}
+fieldset 						{border: solid 1px #000; /* background-color: #FFF; */}
+.bordainvisivel 				{border: transparent;}
+
+/* Formatação das caixas de texto e de seleção */
+input[type=text], input[type=password], input[type=email], input[type=tel], input[type=number], input[type=date], input[type=time], input[type=url]
+								{padding: 1pt; border-radius: 4px; border: solid 1px #444; background-color: #EEE;}
+
+/* Formatação dos botões */
+button, input[type=submit], input[type=reset] {
+	padding:6px 10px;
+	font-weight: bold;
+	border-radius: 4px;
+	cursor:pointer;
+/*  border:1px solid #25692A;
+	font-family:Verdana;
+	font-size:12px;
+	border-color:#46a7f5;
+	text-decoration:none;
+	background:linear-gradient(to bottom, #86c6f8 5%, #46a7f5 100%); 
+	box-shadow:inset 0px 1px 0px 0px #d7ecfd;
+	color:#fff; 
+	text-shadow:0px 1px 0px #528009; */
+}
+
+/* Implementação de fonte gráfica externa */
+@font-face {
+    font-family: 'Old English Gothic';
+    src: url('./fonts/OldEnglishGothic.eot?#iefix') format('embedded-opentype'),
+        url('./fonts/OldEnglishGothic.woff2') format('woff2'),
+        url('./fonts/OldEnglishGothic.woff') format('woff'),
+        url('./fonts/OldEnglishGothic.svg#OldEnglishGothic') format('svg');
+    font-weight: 100;
+    font-style: normal;
+}
+.primletra {
+	font-family: 'Old English Gothic', 'Times New Roman', Times, serif; 
+	font-size: 24pt;
+	color: #F00;
+}
