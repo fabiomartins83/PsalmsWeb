@@ -4,7 +4,6 @@
 	*** Desenvolvido por Fábio de Almeida Martins
 -->
 <html lang="pt-br" dir="ltr">
-
 <head>
 <!--	<meta http-equiv="refresh" content="3";url=http://www.google.com" /> -->
 	<meta charset="UTF-8">
@@ -31,32 +30,31 @@
 	<link rel="stylesheet" type="text/css" href="./css/style-dark.css">
 	<link rel="stylesheet" type="text/css" id="css-light" href="" data-href="./css/style-light.css">
 </head>
-
 <body onload="">
 	<script type="text/javascript" src="./js/script-body.js"></script>
-	<header class="cabecalho">
-		<div class="">
+	<header id="cabecalho" class="cabecalho">
+		<div id="divlogotipo">
 			<a id="topo">
-				<figure id="imagem1">
-					<img src="./img/lubecker-totentanz.jpg" alt="Pintura medieval gótica" title="Pintura medieval gótica">
+				<figure id="figure1">
+					<img id="imagem1" src="./img/lubecker-totentanz.jpg" alt="Pintura medieval gótica" title="Pintura medieval gótica">
 					<figcaption class="imgdescr">Pintura gótica medieval</figcaption>
 				</figure>
 			</a>
 		</div>
-		<br><h1 class="titulo destaque" id="tituloprincipal">LIBER PSALMORVM</h1><br>
 	</header>
 	<main id="principal">
-		<div class="lateral">
-			<figure class="">
+		<div id="divlateral" class="lateral">
+			<figure id="figure2">
 				<a href="https://pt.wikipedia.org/wiki/Livro_de_Salmos" target="_blank">
-					<img src="./img/danca-macabra-1.png" alt="Pintura medieval gótica" title="Pintura medieval gótica" align=right> 
+					<img id="imagem2" src="./img/danca-macabra-1.png" alt="Pintura medieval gótica" title="Pintura medieval gótica" align=right> 
 <!--					<figcaption class="imgdescr">Pintura gótica medieval</figcaption>  -->
 				</a>
 			</figure>
 		</div>
 		<section id="secaoprincipal">
+			<h1 class="titulo destaque" id="tituloprincipal">LIBER PSALMORVM</h1>
 			<div id="divTextoPrincipal" class="corpodetexto times14">
-				<ol type="I" class="lista">
+				<ol type="I" id="versiculos" class="lista">
 					<li id="linha01"><span id="letra01" class="primletra">Q</span id="linha01">ui habitat in adjutorio Altissimi, in protectione Dei caeli commorabitur. </li>
 					<li id="linha02"><span id="letra02" class="primletra">D</span id="linha02">icet Domino: Susceptor meus es tu, et refugium meum; Deus meus, sperabo in eum. </li>
 					<li id="linha03"><span id="letra03" class="primletra">Q</span id="linha03">uoniam ipse liberavit me de laqueo venantium, et a verbo aspero. </li>
@@ -80,7 +78,7 @@
 			<div id="divFormIdiomas">
 				<form id="formIdiomas">
 					<label for="selecaoIdioma">Change the language: </label>
-					<select name="selecaoIdioma" onchange="alteraTexto(this.value)">
+					<select id="selecaoIdioma" name="selecaoIdioma" onchange="alteraTexto(this.value)">
 						<option value="latim">Latina</option>
 						<option value="ingles">English</option>
 						<!-- <option value="portugues">Portugues</option> -->
@@ -101,8 +99,8 @@
 		</nav>
 	</section>
 	<br>
-	<footer class="rodape">
-		<div class="divrodape">
+	<footer id="rodape" class="rodape">
+		<div id="divrodape">
 			<p><small>Desenvolvido por <b>Fábio de Almeida Martins</b><br>© 2021  -  Fábio de Almeida Martins</small></p>
 		</div>
 	</footer>
