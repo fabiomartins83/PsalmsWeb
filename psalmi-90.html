@@ -21,11 +21,12 @@
 		<link rel="alternative" type="application/rss+xml" title="Liber Psalmorum - RSS Feed" href="./feed">
 		<link rel="start" href="./home.html">
 		<link rel="index" title="Liber Psalmorum - Home" href="./home.php">
-		<script type="text/javascript" src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/js/bootstrap.bundle.min.js"></script>
 		<link rel="stylesheet" type="text/css" href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css">
 -->
 		<title>LIBER PSALMORVM - PSALMI XC</title>
 		<script type="text/javascript" src="./js/JQuery3-min.js"></script>
+		<script type="text/javascript" src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/js/bootstrap.bundle.min.js"></script>
+		<script type="text/javascript" src="./js/midi.js"></script>
 		<script type="text/javascript" src="./js/script-head.js"></script>
 		<link rel="stylesheet" type="text/css" href="./css/style-dark.css">
 		<link rel="stylesheet" type="text/css" id="css-light" href="" data-href="./css/style-light.css">
@@ -35,12 +36,11 @@
 		<div id="div-conteudo">
 			<header id="cabecalho" class="cabecalho">
 				<div id="divlogotipo">
-					<a id="topo">
-						<figure id="figure1">
-							<img id="imagem1" src="./img/lubecker-totentanz.jpg" alt="Pintura medieval gótica" title="Pintura medieval gótica">
-							<figcaption class="imgdescr">Pintura gótica medieval</figcaption>
-						</figure>
-					</a>
+					<a id="topo"></a>
+					<figure id="figure1">
+						<img id="imagem1" src="./img/lubecker-totentanz.jpg" alt="Pintura medieval gótica" title="Pintura medieval gótica">
+						<figcaption class="imgdescr">Pintura gótica medieval</figcaption>
+					</figure>
 				</div>
 			</header>
 			<main id="principal">
@@ -51,7 +51,7 @@
 						<div id="divlateral" class="float-direita">
 							<figure id="figure2">
 								<a href="./home.html" target="_blank">
-									<img id="imagem2" src="./img/danca-macabra-1.png" alt="Pintura gótica medieval" title="Pintura gótica medieval" align="right" width="480px" height="auto">
+									<img id="imagem2" src="./img/danca-macabra-1.png" alt="Pintura gótica medieval" title="Pintura gótica medieval" width="480px" height="auto">
 <!--								<figcaption class="imgdescr">Pintura gótica medieval</figcaption>  -->
 								</a>
 							</figure>
@@ -107,23 +107,23 @@
 					</div>
 				</section>
 			</main>
-		<br><br><br>
-		<section id="menuprincipal" class="container-fit">
-			<div id="navmenu" class="box-fit menu-links" style="">
-				<h6>Menu principal: </h6>
-				<nav id="divmenu" class="links">
-					<a href="javascript:void(0)" id="mudaEstilo">Alterar estilo</a><br>
-					<a href="#topo">Ir ao topo da página</a><br>
-					<a href="./home.html">Voltar para a Página Inicial</a><br>
-				</nav>
-			</div>
-		</section>
-		<br>
-		<footer id="rodape" class="rodape">
-			<div id="divrodape" class="divrodape">
-				<p><small>Desenvolvido por <b>Fábio de Almeida Martins</b><br>© 2021 - Fábio de Almeida Martins</small></p>
-			</div>
-		</footer>	
-	</div>
-</body>
+			<br><br><br>
+			<section id="menuprincipal" class="container-fit">
+				<div id="navmenu" class="box-fit menu-links" style="">
+					<h6>Menu principal: </h6>
+					<nav id="divmenu" class="links">
+						<a href="javascript:void(0)" id="mudaEstilo">Alterar estilo</a><br>
+						<a href="#topo">Ir ao topo da página</a><br>
+						<a href="./home.html">Voltar para a Página Inicial</a><br>
+					</nav>
+				</div>
+			</section>
+			<br>
+			<footer id="rodape" class="rodape">
+				<div id="divrodape" class="divrodape">
+					<p><small>Desenvolvido por <b>Fábio de Almeida Martins</b><br>© 2021 - Fábio de Almeida Martins</small></p>
+				</div>
+			</footer>	
+		</div>
+	</body>
 </html>
