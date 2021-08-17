@@ -1,0 +1,6 @@
+# Bloquear Googlebot e demais rastreadores
+User-agent: Googlebot
+User-agent: *
+Disallow: /
+
+Sitemap: https://fabiomartins83.github.io/PsalmsWeb/sitemap.xml
